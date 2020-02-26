@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class Validator {
     public static boolean validatePhoneNumber(String phoneNumber) {
-        String regEx = "^0[0-9 -]{8,}";
+        String regEx = "^0[0-9 -]{8,15}";
         return Pattern.matches(regEx, phoneNumber);
     } // validatePhoneNumber
 

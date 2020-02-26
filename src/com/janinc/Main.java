@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        String[] phoneNumbers = {"08-12 34 56", "040-123 45", "0704-12 34 56", "0707321654", "0707 555 666", "704223124", "042154", "Hej!"};
+        String[] phoneNumbers = {"08-12 34 56", "040-123 45", "0704-12 34 56", "0707321654", "0707 555 666", "704223124", "042154", "Hej!", "08-12 34 5612366666123123"};
         String[] emailAddies = {"janis_k@hotmail.com", "_janis_k@hotmail.com", "hejhopp@snurrespratt.se", "a@a.com", "ingendoman@hej", "qi@bbc.co.uk"};
         String[] pnrs = {"1990-08-21 1234", "9008211234", "900821-1234", "1918-09-22 2345", "180922+2345", "111113456-789452"};
         String[] pwds = {"Hejsan!", "hejSan12!", "ttjosansadfrgdrgerlwg", "%##@3\t#¤\"!#dfAS"};
